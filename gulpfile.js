@@ -10,7 +10,7 @@ function scripts() {
 }
 
 function styles() {
-    return gulp.src('./src/styles/*.scss')
+    return gulp.src('./src/styles/*.css')
         .pipe(sass({ outputStyle: 'compressed' }))
         .pipe(gulp.dest('./dist/css'));
 }
